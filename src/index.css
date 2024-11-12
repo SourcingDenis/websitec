@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+@layer utilities {
+  .bg-gray-750 {
+    background-color: rgb(31, 41, 55);
+  }
+  .bg-gray-850 {
+    background-color: rgb(24, 31, 41);
+  }
+}
